@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <!-- Header -->
+    <div class="container">
+      <header
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <span class="fs-4 text-info"
+            ><span class="text-success">Dharmin</span> Patel</span
+          >
+        </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="#Skills" class="nav-link text-light">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Projects" class="nav-link text-light">Projects</a>
+          </li>
+        </ul>
+      </header>
+    </div>
+    <!-- About me -->
+    <div class="px-4 py-5 my-5 text-center bg-light">
+      <img class="d-block mx-auto mb-4" src="./Images/HelloWorld.jpg" alt="" />
+      <h1 class="display-5 fw-bold text-body-emphasis">About Me</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          I am a first year student studying at Concordia University pursuing my Bachelor in Computer Science.
+           Feel free to look through my projects I included my favorite projects in this website excluding this project.
+        </p>
+      </div>
+    </div>
+    <!-- My Skills -->
+    <div class="container px-4 py-5" id="featured-3">
+      <h2 class="pb-2 border-bottom text-light"  id = "Skills">My Skills</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <h3 class="fs-2 text-light">Front End</h3>
+          <img src="./Images/html5-svgrepo-com.svg" alt="" height="60" />
+          <img src="./Images/css3-svgrepo-com.svg" alt="" height="60" />
+          <img
+            src="./Images/javascript-logo-svgrepo-com.svg"
+            alt=""
+            height="60"
+          />
+        </div>
+        <div class="feature col">
+          <h3 class="fs-2 text-light">Back End</h3>
+          <img src="./Images/java-svgrepo-com.svg" alt="" height="60" />
+          <img src="./Images/php-svgrepo-com.svg" alt="" height="60" />
+          <img src="./Images/c-program-icon.svg" alt="" height="60" />
+          <img src="./Images/c-sharp-svgrepo-com.svg" alt="" height="60" />
+          <img src="./Images/sql-svgrepo-com.svg" alt="" height="60" />
+        </div>
+        <div class="feature col">
+          <h3 class="fs-2 text-light">Other</h3>
+          <img src="./Images/bootstrap-svgrepo-com.svg" alt="" height="60" />
+          <img
+            src="./Images/wordpress-color-svgrepo-com.svg"
+            alt=""
+            height="60"
+          />
+          <img
+            src="./Images/github-svgrepo-com.svg"
+            alt=""
+            height="60"
+            class="bg-white rounded-5"
+          />
+          <img src="./Images/postman-icon-svgrepo-com.svg" alt="" height="60" />
+        </div>
+      </div>
+      <h2 class="pb-2 border-bottom text-light" id = "Projects">My Projects</h2>
+      <div class="card-group">
+        <div class="card">
+          <a href = 
+          "https://github.com/Dharmin2/IOT-DashBoard">
+            <img
+            src="./Images/dark_dashboard.png"
+            class="card-img-top"
+            alt="..."
+            height="300"
+          />
+          </a>
+          
+          <div class="card-body">
+            <h5 class="card-title">Python Dashboard: Real-Time Sensor Monitoring</h5>
+            <p class="card-text">
+              <ul>
+                <li>Developed a dynamic Python dashboard that seamlessly updates with real-time data from diverse sensors</li>
+                <li>Used MQTT protocol to transfer real time data to the Raspberry Pi 4 from sensors connected to the Esp32</li>
+                <li>Leveraged RFID technology to authenticate registered users, implementing personalized thresholds for enhanced user interaction</li>
+                <li>Introduced a unique feature wherein a motor, functioning as a fan, could be controlled via email commands</li>
+                <li>Skills used: Python, Dash, HTML, CSS, Raspberry Pi 4, Esp32</li>
+              </ul>
+            </p>
+            <p class="card-text">
+              <small class="text-body-secondary"
+                >Image is not an accurate representation of the UI</small
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <a href = "https://github.com/Dharmin2/Web-Services">
+            <img src="./Images/e-commerce-1606962_1280.png" class="card-img-top" alt="..." height="300" />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">E-commerce Web Application with JWT Authentication</h5>
+            <p class="card-text">
+              <ul>
+                <li>Secure E-commerce web application featuring JWT token-based user authentication</li>
+                <li>All requests were processed through a API, ensuring a secure transaction process</li>
+                <li>Implemented comprehensive logging mechanisms to track server activities for enhanced security and monitoring</li>
+                <li>Skills used: PHP, HTML, CSS, SQL, MVC, Postman</li>
+              </ul>
+            </p>
+            <p class="card-text">
+              <small class="text-body-secondary">Image is not an accurate representation of the UI</small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <a href = "https://github.com/AliHSZ99/NemesisFoodSystem">
+            <img src="./Images/Nemesis.png" class="card-img-top" alt="..." height="300"/>
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Nemesis Video Game Lounge Inventory Management</h5>
+            <p class="card-text">
+              <ul>
+                <li>Creation of a comprehensive web application for Nemesis Video Game Lounge, focusing on efficient inventory management</li>
+                <li>Implemented a secure role-based authentication system to control access levels</li>
+                <li>Maintained close communication with clients to ensure the application precisely addressed the specific business needs of the company</li>
+                <li>Skills used: PHP, HTML, CSS, SQL, MVC</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-light">© 2023 Dharmin Patel, All Rights</span>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
